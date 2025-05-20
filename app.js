@@ -1,6 +1,5 @@
-import retObj from "./functions.js";
+import peoplejs from "./people.js";
 
 
-
-
-console.log(retObj("marco", "rossi"));
+console.log(peoplejs());
+console.log(peoplejs().fullName.firstName);
